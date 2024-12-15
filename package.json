@@ -1,8 +1,8 @@
 {
-	"name": "First Person Multishooter",
+	"name": "Love Tastes Like Broccoli",
 	"version": "0.0.1",
 	"private": true,
-	"main": "server/index.js",
+	"main": "index.js",
 	"scripts": {
 		"dev": "vite dev --host",
 		"build": "node build",
@@ -14,7 +14,6 @@
 		"model-pipeline:run": "node scripts/model-pipeline.js"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-node": "^5.2.2",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -44,8 +43,17 @@
 		"@threlte/rapier": "^2.0.1",
 		"@threlte/theatre": "^2.1.8",
 		"@threlte/xr": "^0.1.4",
+		"autoprefixer": "^10.4.20",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
 		"gsap": "^3.12.5",
 		"lenis": "^1.1.13",
-		"three": "^0.159.0"
+		"mongoose": "^8.9.0",
+		"mysql2": "^3.11.5",
+		"postcss": "^8.4.49",
+		"tailwindcss": "^3.4.16",
+		"three": "^0.159.0",
+		"ws": "^8.18.0"
 	}
 }
